@@ -124,7 +124,6 @@
             height: 100%;
             object-fit: cover;
             transition: all 0.4s ease-in-out;
-            filter: grayscale(100%);
             overflow: hidden;
             border-radius: 20px;
             box-shadow: 5px 5px 15px 5px var(--color-white);
@@ -132,7 +131,7 @@
         }
 
         .header-content .left-header .image img:hover {
-            filter: grayscale(0);
+            filter: grayscale(100%);
         }
 
         .header-content .right-header {
